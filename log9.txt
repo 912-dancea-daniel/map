@@ -1,0 +1,889 @@
+Prg id: 9
+exeStack=[Ref int v1; v1=2; Ref int v2; v2=3; Ref int v3; v3=4; int cnt; newLatch(cnt,rh(v2)); fork(){rW(v1, rh(v1) * 10); print(rh(v1)); countDown(cnt); fork(){rW(v2, rh(v2) * 10); print(rh(v2)); countDown(cnt); fork(){rW(v3, rh(v3) * 10); print(rh(v3)); countDown(cnt)}}}; await(cnt); print(100); countDown(cnt); print(100)]
+symTable=The table is empty
+heap= The table is empty
+fileTable=The table is empty
+out=The out list is empty
+
+Prg id: 9
+exeStack=[v1=2; Ref int v2; v2=3; Ref int v3; v3=4; int cnt; newLatch(cnt,rh(v2)); fork(){rW(v1, rh(v1) * 10); print(rh(v1)); countDown(cnt); fork(){rW(v2, rh(v2) * 10); print(rh(v2)); countDown(cnt); fork(){rW(v3, rh(v3) * 10); print(rh(v3)); countDown(cnt)}}}; await(cnt); print(100); countDown(cnt); print(100), Ref int v1]
+symTable=The table is empty
+heap= The table is empty
+fileTable=The table is empty
+out=The out list is empty
+
+Prg id: 9
+exeStack=[v1=2; Ref int v2; v2=3; Ref int v3; v3=4; int cnt; newLatch(cnt,rh(v2)); fork(){rW(v1, rh(v1) * 10); print(rh(v1)); countDown(cnt); fork(){rW(v2, rh(v2) * 10); print(rh(v2)); countDown(cnt); fork(){rW(v3, rh(v3) * 10); print(rh(v3)); countDown(cnt)}}}; await(cnt); print(100); countDown(cnt); print(100), Ref int v1]
+symTable=The table is empty
+heap= The table is empty
+fileTable=The table is empty
+out=The out list is empty
+
+Prg id: 9
+exeStack=[v1=2; Ref int v2; v2=3; Ref int v3; v3=4; int cnt; newLatch(cnt,rh(v2)); fork(){rW(v1, rh(v1) * 10); print(rh(v1)); countDown(cnt); fork(){rW(v2, rh(v2) * 10); print(rh(v2)); countDown(cnt); fork(){rW(v3, rh(v3) * 10); print(rh(v3)); countDown(cnt)}}}; await(cnt); print(100); countDown(cnt); print(100)]
+symTable={v1=(0,int)}
+heap= The table is empty
+fileTable=The table is empty
+out=The out list is empty
+
+Prg id: 9
+exeStack=[v1=2; Ref int v2; v2=3; Ref int v3; v3=4; int cnt; newLatch(cnt,rh(v2)); fork(){rW(v1, rh(v1) * 10); print(rh(v1)); countDown(cnt); fork(){rW(v2, rh(v2) * 10); print(rh(v2)); countDown(cnt); fork(){rW(v3, rh(v3) * 10); print(rh(v3)); countDown(cnt)}}}; await(cnt); print(100); countDown(cnt); print(100)]
+symTable={v1=(0,int)}
+heap= The table is empty
+fileTable=The table is empty
+out=The out list is empty
+
+Prg id: 9
+exeStack=[Ref int v2; v2=3; Ref int v3; v3=4; int cnt; newLatch(cnt,rh(v2)); fork(){rW(v1, rh(v1) * 10); print(rh(v1)); countDown(cnt); fork(){rW(v2, rh(v2) * 10); print(rh(v2)); countDown(cnt); fork(){rW(v3, rh(v3) * 10); print(rh(v3)); countDown(cnt)}}}; await(cnt); print(100); countDown(cnt); print(100), v1=2]
+symTable={v1=(0,int)}
+heap= The table is empty
+fileTable=The table is empty
+out=The out list is empty
+
+Prg id: 9
+exeStack=[Ref int v2; v2=3; Ref int v3; v3=4; int cnt; newLatch(cnt,rh(v2)); fork(){rW(v1, rh(v1) * 10); print(rh(v1)); countDown(cnt); fork(){rW(v2, rh(v2) * 10); print(rh(v2)); countDown(cnt); fork(){rW(v3, rh(v3) * 10); print(rh(v3)); countDown(cnt)}}}; await(cnt); print(100); countDown(cnt); print(100), v1=2]
+symTable={v1=(0,int)}
+heap= The table is empty
+fileTable=The table is empty
+out=The out list is empty
+
+Prg id: 9
+exeStack=[Ref int v2; v2=3; Ref int v3; v3=4; int cnt; newLatch(cnt,rh(v2)); fork(){rW(v1, rh(v1) * 10); print(rh(v1)); countDown(cnt); fork(){rW(v2, rh(v2) * 10); print(rh(v2)); countDown(cnt); fork(){rW(v3, rh(v3) * 10); print(rh(v3)); countDown(cnt)}}}; await(cnt); print(100); countDown(cnt); print(100)]
+symTable={v1=(1,int)}
+heap= {1=2}
+fileTable=The table is empty
+out=The out list is empty
+
+Prg id: 9
+exeStack=[Ref int v2; v2=3; Ref int v3; v3=4; int cnt; newLatch(cnt,rh(v2)); fork(){rW(v1, rh(v1) * 10); print(rh(v1)); countDown(cnt); fork(){rW(v2, rh(v2) * 10); print(rh(v2)); countDown(cnt); fork(){rW(v3, rh(v3) * 10); print(rh(v3)); countDown(cnt)}}}; await(cnt); print(100); countDown(cnt); print(100)]
+symTable={v1=(1,int)}
+heap= {1=2}
+fileTable=The table is empty
+out=The out list is empty
+
+Prg id: 9
+exeStack=[v2=3; Ref int v3; v3=4; int cnt; newLatch(cnt,rh(v2)); fork(){rW(v1, rh(v1) * 10); print(rh(v1)); countDown(cnt); fork(){rW(v2, rh(v2) * 10); print(rh(v2)); countDown(cnt); fork(){rW(v3, rh(v3) * 10); print(rh(v3)); countDown(cnt)}}}; await(cnt); print(100); countDown(cnt); print(100), Ref int v2]
+symTable={v1=(1,int)}
+heap= {1=2}
+fileTable=The table is empty
+out=The out list is empty
+
+Prg id: 9
+exeStack=[v2=3; Ref int v3; v3=4; int cnt; newLatch(cnt,rh(v2)); fork(){rW(v1, rh(v1) * 10); print(rh(v1)); countDown(cnt); fork(){rW(v2, rh(v2) * 10); print(rh(v2)); countDown(cnt); fork(){rW(v3, rh(v3) * 10); print(rh(v3)); countDown(cnt)}}}; await(cnt); print(100); countDown(cnt); print(100), Ref int v2]
+symTable={v1=(1,int)}
+heap= {1=2}
+fileTable=The table is empty
+out=The out list is empty
+
+Prg id: 9
+exeStack=[v2=3; Ref int v3; v3=4; int cnt; newLatch(cnt,rh(v2)); fork(){rW(v1, rh(v1) * 10); print(rh(v1)); countDown(cnt); fork(){rW(v2, rh(v2) * 10); print(rh(v2)); countDown(cnt); fork(){rW(v3, rh(v3) * 10); print(rh(v3)); countDown(cnt)}}}; await(cnt); print(100); countDown(cnt); print(100)]
+symTable={v2=(0,int), v1=(1,int)}
+heap= {1=2}
+fileTable=The table is empty
+out=The out list is empty
+
+Prg id: 9
+exeStack=[v2=3; Ref int v3; v3=4; int cnt; newLatch(cnt,rh(v2)); fork(){rW(v1, rh(v1) * 10); print(rh(v1)); countDown(cnt); fork(){rW(v2, rh(v2) * 10); print(rh(v2)); countDown(cnt); fork(){rW(v3, rh(v3) * 10); print(rh(v3)); countDown(cnt)}}}; await(cnt); print(100); countDown(cnt); print(100)]
+symTable={v2=(0,int), v1=(1,int)}
+heap= {1=2}
+fileTable=The table is empty
+out=The out list is empty
+
+Prg id: 9
+exeStack=[Ref int v3; v3=4; int cnt; newLatch(cnt,rh(v2)); fork(){rW(v1, rh(v1) * 10); print(rh(v1)); countDown(cnt); fork(){rW(v2, rh(v2) * 10); print(rh(v2)); countDown(cnt); fork(){rW(v3, rh(v3) * 10); print(rh(v3)); countDown(cnt)}}}; await(cnt); print(100); countDown(cnt); print(100), v2=3]
+symTable={v2=(0,int), v1=(1,int)}
+heap= {1=2}
+fileTable=The table is empty
+out=The out list is empty
+
+Prg id: 9
+exeStack=[Ref int v3; v3=4; int cnt; newLatch(cnt,rh(v2)); fork(){rW(v1, rh(v1) * 10); print(rh(v1)); countDown(cnt); fork(){rW(v2, rh(v2) * 10); print(rh(v2)); countDown(cnt); fork(){rW(v3, rh(v3) * 10); print(rh(v3)); countDown(cnt)}}}; await(cnt); print(100); countDown(cnt); print(100), v2=3]
+symTable={v2=(0,int), v1=(1,int)}
+heap= {1=2}
+fileTable=The table is empty
+out=The out list is empty
+
+Prg id: 9
+exeStack=[Ref int v3; v3=4; int cnt; newLatch(cnt,rh(v2)); fork(){rW(v1, rh(v1) * 10); print(rh(v1)); countDown(cnt); fork(){rW(v2, rh(v2) * 10); print(rh(v2)); countDown(cnt); fork(){rW(v3, rh(v3) * 10); print(rh(v3)); countDown(cnt)}}}; await(cnt); print(100); countDown(cnt); print(100)]
+symTable={v2=(2,int), v1=(1,int)}
+heap= {1=2, 2=3}
+fileTable=The table is empty
+out=The out list is empty
+
+Prg id: 9
+exeStack=[Ref int v3; v3=4; int cnt; newLatch(cnt,rh(v2)); fork(){rW(v1, rh(v1) * 10); print(rh(v1)); countDown(cnt); fork(){rW(v2, rh(v2) * 10); print(rh(v2)); countDown(cnt); fork(){rW(v3, rh(v3) * 10); print(rh(v3)); countDown(cnt)}}}; await(cnt); print(100); countDown(cnt); print(100)]
+symTable={v2=(2,int), v1=(1,int)}
+heap= {1=2, 2=3}
+fileTable=The table is empty
+out=The out list is empty
+
+Prg id: 9
+exeStack=[v3=4; int cnt; newLatch(cnt,rh(v2)); fork(){rW(v1, rh(v1) * 10); print(rh(v1)); countDown(cnt); fork(){rW(v2, rh(v2) * 10); print(rh(v2)); countDown(cnt); fork(){rW(v3, rh(v3) * 10); print(rh(v3)); countDown(cnt)}}}; await(cnt); print(100); countDown(cnt); print(100), Ref int v3]
+symTable={v2=(2,int), v1=(1,int)}
+heap= {1=2, 2=3}
+fileTable=The table is empty
+out=The out list is empty
+
+Prg id: 9
+exeStack=[v3=4; int cnt; newLatch(cnt,rh(v2)); fork(){rW(v1, rh(v1) * 10); print(rh(v1)); countDown(cnt); fork(){rW(v2, rh(v2) * 10); print(rh(v2)); countDown(cnt); fork(){rW(v3, rh(v3) * 10); print(rh(v3)); countDown(cnt)}}}; await(cnt); print(100); countDown(cnt); print(100), Ref int v3]
+symTable={v2=(2,int), v1=(1,int)}
+heap= {1=2, 2=3}
+fileTable=The table is empty
+out=The out list is empty
+
+Prg id: 9
+exeStack=[v3=4; int cnt; newLatch(cnt,rh(v2)); fork(){rW(v1, rh(v1) * 10); print(rh(v1)); countDown(cnt); fork(){rW(v2, rh(v2) * 10); print(rh(v2)); countDown(cnt); fork(){rW(v3, rh(v3) * 10); print(rh(v3)); countDown(cnt)}}}; await(cnt); print(100); countDown(cnt); print(100)]
+symTable={v3=(0,int), v2=(2,int), v1=(1,int)}
+heap= {1=2, 2=3}
+fileTable=The table is empty
+out=The out list is empty
+
+Prg id: 9
+exeStack=[v3=4; int cnt; newLatch(cnt,rh(v2)); fork(){rW(v1, rh(v1) * 10); print(rh(v1)); countDown(cnt); fork(){rW(v2, rh(v2) * 10); print(rh(v2)); countDown(cnt); fork(){rW(v3, rh(v3) * 10); print(rh(v3)); countDown(cnt)}}}; await(cnt); print(100); countDown(cnt); print(100)]
+symTable={v3=(0,int), v2=(2,int), v1=(1,int)}
+heap= {1=2, 2=3}
+fileTable=The table is empty
+out=The out list is empty
+
+Prg id: 9
+exeStack=[int cnt; newLatch(cnt,rh(v2)); fork(){rW(v1, rh(v1) * 10); print(rh(v1)); countDown(cnt); fork(){rW(v2, rh(v2) * 10); print(rh(v2)); countDown(cnt); fork(){rW(v3, rh(v3) * 10); print(rh(v3)); countDown(cnt)}}}; await(cnt); print(100); countDown(cnt); print(100), v3=4]
+symTable={v3=(0,int), v2=(2,int), v1=(1,int)}
+heap= {1=2, 2=3}
+fileTable=The table is empty
+out=The out list is empty
+
+Prg id: 9
+exeStack=[int cnt; newLatch(cnt,rh(v2)); fork(){rW(v1, rh(v1) * 10); print(rh(v1)); countDown(cnt); fork(){rW(v2, rh(v2) * 10); print(rh(v2)); countDown(cnt); fork(){rW(v3, rh(v3) * 10); print(rh(v3)); countDown(cnt)}}}; await(cnt); print(100); countDown(cnt); print(100), v3=4]
+symTable={v3=(0,int), v2=(2,int), v1=(1,int)}
+heap= {1=2, 2=3}
+fileTable=The table is empty
+out=The out list is empty
+
+Prg id: 9
+exeStack=[int cnt; newLatch(cnt,rh(v2)); fork(){rW(v1, rh(v1) * 10); print(rh(v1)); countDown(cnt); fork(){rW(v2, rh(v2) * 10); print(rh(v2)); countDown(cnt); fork(){rW(v3, rh(v3) * 10); print(rh(v3)); countDown(cnt)}}}; await(cnt); print(100); countDown(cnt); print(100)]
+symTable={v3=(3,int), v2=(2,int), v1=(1,int)}
+heap= {1=2, 2=3, 3=4}
+fileTable=The table is empty
+out=The out list is empty
+
+Prg id: 9
+exeStack=[int cnt; newLatch(cnt,rh(v2)); fork(){rW(v1, rh(v1) * 10); print(rh(v1)); countDown(cnt); fork(){rW(v2, rh(v2) * 10); print(rh(v2)); countDown(cnt); fork(){rW(v3, rh(v3) * 10); print(rh(v3)); countDown(cnt)}}}; await(cnt); print(100); countDown(cnt); print(100)]
+symTable={v3=(3,int), v2=(2,int), v1=(1,int)}
+heap= {1=2, 2=3, 3=4}
+fileTable=The table is empty
+out=The out list is empty
+
+Prg id: 9
+exeStack=[newLatch(cnt,rh(v2)); fork(){rW(v1, rh(v1) * 10); print(rh(v1)); countDown(cnt); fork(){rW(v2, rh(v2) * 10); print(rh(v2)); countDown(cnt); fork(){rW(v3, rh(v3) * 10); print(rh(v3)); countDown(cnt)}}}; await(cnt); print(100); countDown(cnt); print(100), int cnt]
+symTable={v3=(3,int), v2=(2,int), v1=(1,int)}
+heap= {1=2, 2=3, 3=4}
+fileTable=The table is empty
+out=The out list is empty
+
+Prg id: 9
+exeStack=[newLatch(cnt,rh(v2)); fork(){rW(v1, rh(v1) * 10); print(rh(v1)); countDown(cnt); fork(){rW(v2, rh(v2) * 10); print(rh(v2)); countDown(cnt); fork(){rW(v3, rh(v3) * 10); print(rh(v3)); countDown(cnt)}}}; await(cnt); print(100); countDown(cnt); print(100), int cnt]
+symTable={v3=(3,int), v2=(2,int), v1=(1,int)}
+heap= {1=2, 2=3, 3=4}
+fileTable=The table is empty
+out=The out list is empty
+
+Prg id: 9
+exeStack=[newLatch(cnt,rh(v2)); fork(){rW(v1, rh(v1) * 10); print(rh(v1)); countDown(cnt); fork(){rW(v2, rh(v2) * 10); print(rh(v2)); countDown(cnt); fork(){rW(v3, rh(v3) * 10); print(rh(v3)); countDown(cnt)}}}; await(cnt); print(100); countDown(cnt); print(100)]
+symTable={cnt=0, v3=(3,int), v2=(2,int), v1=(1,int)}
+heap= {1=2, 2=3, 3=4}
+fileTable=The table is empty
+out=The out list is empty
+
+Prg id: 9
+exeStack=[newLatch(cnt,rh(v2)); fork(){rW(v1, rh(v1) * 10); print(rh(v1)); countDown(cnt); fork(){rW(v2, rh(v2) * 10); print(rh(v2)); countDown(cnt); fork(){rW(v3, rh(v3) * 10); print(rh(v3)); countDown(cnt)}}}; await(cnt); print(100); countDown(cnt); print(100)]
+symTable={cnt=0, v3=(3,int), v2=(2,int), v1=(1,int)}
+heap= {1=2, 2=3, 3=4}
+fileTable=The table is empty
+out=The out list is empty
+
+Prg id: 9
+exeStack=[fork(){rW(v1, rh(v1) * 10); print(rh(v1)); countDown(cnt); fork(){rW(v2, rh(v2) * 10); print(rh(v2)); countDown(cnt); fork(){rW(v3, rh(v3) * 10); print(rh(v3)); countDown(cnt)}}}; await(cnt); print(100); countDown(cnt); print(100), newLatch(cnt,rh(v2))]
+symTable={cnt=0, v3=(3,int), v2=(2,int), v1=(1,int)}
+heap= {1=2, 2=3, 3=4}
+fileTable=The table is empty
+out=The out list is empty
+
+Prg id: 9
+exeStack=[fork(){rW(v1, rh(v1) * 10); print(rh(v1)); countDown(cnt); fork(){rW(v2, rh(v2) * 10); print(rh(v2)); countDown(cnt); fork(){rW(v3, rh(v3) * 10); print(rh(v3)); countDown(cnt)}}}; await(cnt); print(100); countDown(cnt); print(100), newLatch(cnt,rh(v2))]
+symTable={cnt=0, v3=(3,int), v2=(2,int), v1=(1,int)}
+heap= {1=2, 2=3, 3=4}
+fileTable=The table is empty
+out=The out list is empty
+
+Prg id: 9
+exeStack=[fork(){rW(v1, rh(v1) * 10); print(rh(v1)); countDown(cnt); fork(){rW(v2, rh(v2) * 10); print(rh(v2)); countDown(cnt); fork(){rW(v3, rh(v3) * 10); print(rh(v3)); countDown(cnt)}}}; await(cnt); print(100); countDown(cnt); print(100)]
+symTable={cnt=1, v3=(3,int), v2=(2,int), v1=(1,int)}
+heap= {1=2, 2=3, 3=4}
+fileTable=The table is empty
+out=The out list is empty
+
+Prg id: 9
+exeStack=[fork(){rW(v1, rh(v1) * 10); print(rh(v1)); countDown(cnt); fork(){rW(v2, rh(v2) * 10); print(rh(v2)); countDown(cnt); fork(){rW(v3, rh(v3) * 10); print(rh(v3)); countDown(cnt)}}}; await(cnt); print(100); countDown(cnt); print(100)]
+symTable={cnt=1, v3=(3,int), v2=(2,int), v1=(1,int)}
+heap= {1=2, 2=3, 3=4}
+fileTable=The table is empty
+out=The out list is empty
+
+Prg id: 9
+exeStack=[await(cnt); print(100); countDown(cnt); print(100), fork(){rW(v1, rh(v1) * 10); print(rh(v1)); countDown(cnt); fork(){rW(v2, rh(v2) * 10); print(rh(v2)); countDown(cnt); fork(){rW(v3, rh(v3) * 10); print(rh(v3)); countDown(cnt)}}}]
+symTable={cnt=1, v3=(3,int), v2=(2,int), v1=(1,int)}
+heap= {1=2, 2=3, 3=4}
+fileTable=The table is empty
+out=The out list is empty
+
+Prg id: 9
+exeStack=[await(cnt); print(100); countDown(cnt); print(100), fork(){rW(v1, rh(v1) * 10); print(rh(v1)); countDown(cnt); fork(){rW(v2, rh(v2) * 10); print(rh(v2)); countDown(cnt); fork(){rW(v3, rh(v3) * 10); print(rh(v3)); countDown(cnt)}}}]
+symTable={cnt=1, v3=(3,int), v2=(2,int), v1=(1,int)}
+heap= {1=2, 2=3, 3=4}
+fileTable=The table is empty
+out=The out list is empty
+
+Prg id: 9
+exeStack=[await(cnt); print(100); countDown(cnt); print(100)]
+symTable={cnt=1, v3=(3,int), v2=(2,int), v1=(1,int)}
+heap= {1=2, 2=3, 3=4}
+fileTable=The table is empty
+out=The out list is empty
+
+Prg id: 11
+exeStack=[rW(v1, rh(v1) * 10); print(rh(v1)); countDown(cnt); fork(){rW(v2, rh(v2) * 10); print(rh(v2)); countDown(cnt); fork(){rW(v3, rh(v3) * 10); print(rh(v3)); countDown(cnt)}}]
+symTable={cnt=1, v3=(3,int), v2=(2,int), v1=(1,int)}
+heap= {1=2, 2=3, 3=4}
+fileTable=The table is empty
+out=The out list is empty
+
+Prg id: 9
+exeStack=[await(cnt); print(100); countDown(cnt); print(100)]
+symTable={cnt=1, v3=(3,int), v2=(2,int), v1=(1,int)}
+heap= {1=2, 2=3, 3=4}
+fileTable=The table is empty
+out=The out list is empty
+
+Prg id: 11
+exeStack=[rW(v1, rh(v1) * 10); print(rh(v1)); countDown(cnt); fork(){rW(v2, rh(v2) * 10); print(rh(v2)); countDown(cnt); fork(){rW(v3, rh(v3) * 10); print(rh(v3)); countDown(cnt)}}]
+symTable={cnt=1, v3=(3,int), v2=(2,int), v1=(1,int)}
+heap= {1=2, 2=3, 3=4}
+fileTable=The table is empty
+out=The out list is empty
+
+Prg id: 9
+exeStack=[print(100); countDown(cnt); print(100), await(cnt)]
+symTable={cnt=1, v3=(3,int), v2=(2,int), v1=(1,int)}
+heap= {1=2, 2=3, 3=4}
+fileTable=The table is empty
+out=The out list is empty
+
+Prg id: 11
+exeStack=[print(rh(v1)); countDown(cnt); fork(){rW(v2, rh(v2) * 10); print(rh(v2)); countDown(cnt); fork(){rW(v3, rh(v3) * 10); print(rh(v3)); countDown(cnt)}}, rW(v1, rh(v1) * 10)]
+symTable={cnt=1, v3=(3,int), v2=(2,int), v1=(1,int)}
+heap= {1=2, 2=3, 3=4}
+fileTable=The table is empty
+out=The out list is empty
+
+Prg id: 9
+exeStack=[print(100); countDown(cnt); print(100), await(cnt)]
+symTable={cnt=1, v3=(3,int), v2=(2,int), v1=(1,int)}
+heap= {1=2, 2=3, 3=4}
+fileTable=The table is empty
+out=The out list is empty
+
+Prg id: 11
+exeStack=[print(rh(v1)); countDown(cnt); fork(){rW(v2, rh(v2) * 10); print(rh(v2)); countDown(cnt); fork(){rW(v3, rh(v3) * 10); print(rh(v3)); countDown(cnt)}}, rW(v1, rh(v1) * 10)]
+symTable={cnt=1, v3=(3,int), v2=(2,int), v1=(1,int)}
+heap= {1=2, 2=3, 3=4}
+fileTable=The table is empty
+out=The out list is empty
+
+Prg id: 9
+exeStack=[print(100); countDown(cnt); print(100), await(cnt)]
+symTable={cnt=1, v3=(3,int), v2=(2,int), v1=(1,int)}
+heap= {1=20, 2=3, 3=4}
+fileTable=The table is empty
+out=The out list is empty
+
+Prg id: 11
+exeStack=[print(rh(v1)); countDown(cnt); fork(){rW(v2, rh(v2) * 10); print(rh(v2)); countDown(cnt); fork(){rW(v3, rh(v3) * 10); print(rh(v3)); countDown(cnt)}}]
+symTable={cnt=1, v3=(3,int), v2=(2,int), v1=(1,int)}
+heap= {1=20, 2=3, 3=4}
+fileTable=The table is empty
+out=The out list is empty
+
+Prg id: 9
+exeStack=[print(100); countDown(cnt); print(100), await(cnt)]
+symTable={cnt=1, v3=(3,int), v2=(2,int), v1=(1,int)}
+heap= {1=20, 2=3, 3=4}
+fileTable=The table is empty
+out=The out list is empty
+
+Prg id: 11
+exeStack=[print(rh(v1)); countDown(cnt); fork(){rW(v2, rh(v2) * 10); print(rh(v2)); countDown(cnt); fork(){rW(v3, rh(v3) * 10); print(rh(v3)); countDown(cnt)}}]
+symTable={cnt=1, v3=(3,int), v2=(2,int), v1=(1,int)}
+heap= {1=20, 2=3, 3=4}
+fileTable=The table is empty
+out=The out list is empty
+
+Prg id: 9
+exeStack=[print(100); countDown(cnt); print(100), await(cnt)]
+symTable={cnt=1, v3=(3,int), v2=(2,int), v1=(1,int)}
+heap= {1=20, 2=3, 3=4}
+fileTable=The table is empty
+out=The out list is empty
+
+Prg id: 11
+exeStack=[countDown(cnt); fork(){rW(v2, rh(v2) * 10); print(rh(v2)); countDown(cnt); fork(){rW(v3, rh(v3) * 10); print(rh(v3)); countDown(cnt)}}, print(rh(v1))]
+symTable={cnt=1, v3=(3,int), v2=(2,int), v1=(1,int)}
+heap= {1=20, 2=3, 3=4}
+fileTable=The table is empty
+out=The out list is empty
+
+Prg id: 9
+exeStack=[print(100); countDown(cnt); print(100), await(cnt)]
+symTable={cnt=1, v3=(3,int), v2=(2,int), v1=(1,int)}
+heap= {1=20, 2=3, 3=4}
+fileTable=The table is empty
+out=The out list is empty
+
+Prg id: 11
+exeStack=[countDown(cnt); fork(){rW(v2, rh(v2) * 10); print(rh(v2)); countDown(cnt); fork(){rW(v3, rh(v3) * 10); print(rh(v3)); countDown(cnt)}}, print(rh(v1))]
+symTable={cnt=1, v3=(3,int), v2=(2,int), v1=(1,int)}
+heap= {1=20, 2=3, 3=4}
+fileTable=The table is empty
+out=The out list is empty
+
+Prg id: 9
+exeStack=[print(100); countDown(cnt); print(100), await(cnt)]
+symTable={cnt=1, v3=(3,int), v2=(2,int), v1=(1,int)}
+heap= {1=20, 2=3, 3=4}
+fileTable=The table is empty
+out=[20]
+
+Prg id: 11
+exeStack=[countDown(cnt); fork(){rW(v2, rh(v2) * 10); print(rh(v2)); countDown(cnt); fork(){rW(v3, rh(v3) * 10); print(rh(v3)); countDown(cnt)}}]
+symTable={cnt=1, v3=(3,int), v2=(2,int), v1=(1,int)}
+heap= {1=20, 2=3, 3=4}
+fileTable=The table is empty
+out=[20]
+
+Prg id: 9
+exeStack=[print(100); countDown(cnt); print(100), await(cnt)]
+symTable={cnt=1, v3=(3,int), v2=(2,int), v1=(1,int)}
+heap= {1=20, 2=3, 3=4}
+fileTable=The table is empty
+out=[20]
+
+Prg id: 11
+exeStack=[countDown(cnt); fork(){rW(v2, rh(v2) * 10); print(rh(v2)); countDown(cnt); fork(){rW(v3, rh(v3) * 10); print(rh(v3)); countDown(cnt)}}]
+symTable={cnt=1, v3=(3,int), v2=(2,int), v1=(1,int)}
+heap= {1=20, 2=3, 3=4}
+fileTable=The table is empty
+out=[20]
+
+Prg id: 9
+exeStack=[print(100); countDown(cnt); print(100), await(cnt)]
+symTable={cnt=1, v3=(3,int), v2=(2,int), v1=(1,int)}
+heap= {1=20, 2=3, 3=4}
+fileTable=The table is empty
+out=[20]
+
+Prg id: 11
+exeStack=[fork(){rW(v2, rh(v2) * 10); print(rh(v2)); countDown(cnt); fork(){rW(v3, rh(v3) * 10); print(rh(v3)); countDown(cnt)}}, countDown(cnt)]
+symTable={cnt=1, v3=(3,int), v2=(2,int), v1=(1,int)}
+heap= {1=20, 2=3, 3=4}
+fileTable=The table is empty
+out=[20]
+
+Prg id: 9
+exeStack=[print(100); countDown(cnt); print(100), await(cnt)]
+symTable={cnt=1, v3=(3,int), v2=(2,int), v1=(1,int)}
+heap= {1=20, 2=3, 3=4}
+fileTable=The table is empty
+out=[20]
+
+Prg id: 11
+exeStack=[fork(){rW(v2, rh(v2) * 10); print(rh(v2)); countDown(cnt); fork(){rW(v3, rh(v3) * 10); print(rh(v3)); countDown(cnt)}}, countDown(cnt)]
+symTable={cnt=1, v3=(3,int), v2=(2,int), v1=(1,int)}
+heap= {1=20, 2=3, 3=4}
+fileTable=The table is empty
+out=[20]
+
+Prg id: 9
+exeStack=[print(100); countDown(cnt); print(100), await(cnt)]
+symTable={cnt=1, v3=(3,int), v2=(2,int), v1=(1,int)}
+heap= {1=20, 2=3, 3=4}
+fileTable=The table is empty
+out=[20, 11]
+
+Prg id: 11
+exeStack=[fork(){rW(v2, rh(v2) * 10); print(rh(v2)); countDown(cnt); fork(){rW(v3, rh(v3) * 10); print(rh(v3)); countDown(cnt)}}]
+symTable={cnt=1, v3=(3,int), v2=(2,int), v1=(1,int)}
+heap= {1=20, 2=3, 3=4}
+fileTable=The table is empty
+out=[20, 11]
+
+Prg id: 9
+exeStack=[print(100); countDown(cnt); print(100), await(cnt)]
+symTable={cnt=1, v3=(3,int), v2=(2,int), v1=(1,int)}
+heap= {1=20, 2=3, 3=4}
+fileTable=The table is empty
+out=[20, 11]
+
+Prg id: 11
+exeStack=[fork(){rW(v2, rh(v2) * 10); print(rh(v2)); countDown(cnt); fork(){rW(v3, rh(v3) * 10); print(rh(v3)); countDown(cnt)}}]
+symTable={cnt=1, v3=(3,int), v2=(2,int), v1=(1,int)}
+heap= {1=20, 2=3, 3=4}
+fileTable=The table is empty
+out=[20, 11]
+
+Prg id: 9
+exeStack=[print(100); countDown(cnt); print(100), await(cnt)]
+symTable={cnt=1, v3=(3,int), v2=(2,int), v1=(1,int)}
+heap= {1=20, 2=3, 3=4}
+fileTable=The table is empty
+out=[20, 11]
+
+Prg id: 11
+exeStack=The stack is empty
+symTable={cnt=1, v3=(3,int), v2=(2,int), v1=(1,int)}
+heap= {1=20, 2=3, 3=4}
+fileTable=The table is empty
+out=[20, 11]
+
+Prg id: 12
+exeStack=[rW(v2, rh(v2) * 10); print(rh(v2)); countDown(cnt); fork(){rW(v3, rh(v3) * 10); print(rh(v3)); countDown(cnt)}]
+symTable={cnt=1, v3=(3,int), v2=(2,int), v1=(1,int)}
+heap= {1=20, 2=3, 3=4}
+fileTable=The table is empty
+out=[20, 11]
+
+Prg id: 9
+exeStack=[print(100); countDown(cnt); print(100), await(cnt)]
+symTable={cnt=1, v3=(3,int), v2=(2,int), v1=(1,int)}
+heap= {1=20, 2=3, 3=4}
+fileTable=The table is empty
+out=[20, 11]
+
+Prg id: 12
+exeStack=[rW(v2, rh(v2) * 10); print(rh(v2)); countDown(cnt); fork(){rW(v3, rh(v3) * 10); print(rh(v3)); countDown(cnt)}]
+symTable={cnt=1, v3=(3,int), v2=(2,int), v1=(1,int)}
+heap= {1=20, 2=3, 3=4}
+fileTable=The table is empty
+out=[20, 11]
+
+Prg id: 9
+exeStack=[print(100); countDown(cnt); print(100), await(cnt)]
+symTable={cnt=1, v3=(3,int), v2=(2,int), v1=(1,int)}
+heap= {1=20, 2=3, 3=4}
+fileTable=The table is empty
+out=[20, 11]
+
+Prg id: 12
+exeStack=[print(rh(v2)); countDown(cnt); fork(){rW(v3, rh(v3) * 10); print(rh(v3)); countDown(cnt)}, rW(v2, rh(v2) * 10)]
+symTable={cnt=1, v3=(3,int), v2=(2,int), v1=(1,int)}
+heap= {1=20, 2=3, 3=4}
+fileTable=The table is empty
+out=[20, 11]
+
+Prg id: 9
+exeStack=[print(100); countDown(cnt); print(100), await(cnt)]
+symTable={cnt=1, v3=(3,int), v2=(2,int), v1=(1,int)}
+heap= {1=20, 2=3, 3=4}
+fileTable=The table is empty
+out=[20, 11]
+
+Prg id: 12
+exeStack=[print(rh(v2)); countDown(cnt); fork(){rW(v3, rh(v3) * 10); print(rh(v3)); countDown(cnt)}, rW(v2, rh(v2) * 10)]
+symTable={cnt=1, v3=(3,int), v2=(2,int), v1=(1,int)}
+heap= {1=20, 2=3, 3=4}
+fileTable=The table is empty
+out=[20, 11]
+
+Prg id: 9
+exeStack=[print(100); countDown(cnt); print(100), await(cnt)]
+symTable={cnt=1, v3=(3,int), v2=(2,int), v1=(1,int)}
+heap= {1=20, 2=30, 3=4}
+fileTable=The table is empty
+out=[20, 11]
+
+Prg id: 12
+exeStack=[print(rh(v2)); countDown(cnt); fork(){rW(v3, rh(v3) * 10); print(rh(v3)); countDown(cnt)}]
+symTable={cnt=1, v3=(3,int), v2=(2,int), v1=(1,int)}
+heap= {1=20, 2=30, 3=4}
+fileTable=The table is empty
+out=[20, 11]
+
+Prg id: 9
+exeStack=[print(100); countDown(cnt); print(100), await(cnt)]
+symTable={cnt=1, v3=(3,int), v2=(2,int), v1=(1,int)}
+heap= {1=20, 2=30, 3=4}
+fileTable=The table is empty
+out=[20, 11]
+
+Prg id: 12
+exeStack=[print(rh(v2)); countDown(cnt); fork(){rW(v3, rh(v3) * 10); print(rh(v3)); countDown(cnt)}]
+symTable={cnt=1, v3=(3,int), v2=(2,int), v1=(1,int)}
+heap= {1=20, 2=30, 3=4}
+fileTable=The table is empty
+out=[20, 11]
+
+Prg id: 9
+exeStack=[print(100); countDown(cnt); print(100), await(cnt)]
+symTable={cnt=1, v3=(3,int), v2=(2,int), v1=(1,int)}
+heap= {1=20, 2=30, 3=4}
+fileTable=The table is empty
+out=[20, 11]
+
+Prg id: 12
+exeStack=[countDown(cnt); fork(){rW(v3, rh(v3) * 10); print(rh(v3)); countDown(cnt)}, print(rh(v2))]
+symTable={cnt=1, v3=(3,int), v2=(2,int), v1=(1,int)}
+heap= {1=20, 2=30, 3=4}
+fileTable=The table is empty
+out=[20, 11]
+
+Prg id: 9
+exeStack=[print(100); countDown(cnt); print(100), await(cnt)]
+symTable={cnt=1, v3=(3,int), v2=(2,int), v1=(1,int)}
+heap= {1=20, 2=30, 3=4}
+fileTable=The table is empty
+out=[20, 11]
+
+Prg id: 12
+exeStack=[countDown(cnt); fork(){rW(v3, rh(v3) * 10); print(rh(v3)); countDown(cnt)}, print(rh(v2))]
+symTable={cnt=1, v3=(3,int), v2=(2,int), v1=(1,int)}
+heap= {1=20, 2=30, 3=4}
+fileTable=The table is empty
+out=[20, 11]
+
+Prg id: 9
+exeStack=[print(100); countDown(cnt); print(100), await(cnt)]
+symTable={cnt=1, v3=(3,int), v2=(2,int), v1=(1,int)}
+heap= {1=20, 2=30, 3=4}
+fileTable=The table is empty
+out=[20, 11, 30]
+
+Prg id: 12
+exeStack=[countDown(cnt); fork(){rW(v3, rh(v3) * 10); print(rh(v3)); countDown(cnt)}]
+symTable={cnt=1, v3=(3,int), v2=(2,int), v1=(1,int)}
+heap= {1=20, 2=30, 3=4}
+fileTable=The table is empty
+out=[20, 11, 30]
+
+Prg id: 9
+exeStack=[print(100); countDown(cnt); print(100), await(cnt)]
+symTable={cnt=1, v3=(3,int), v2=(2,int), v1=(1,int)}
+heap= {1=20, 2=30, 3=4}
+fileTable=The table is empty
+out=[20, 11, 30]
+
+Prg id: 12
+exeStack=[countDown(cnt); fork(){rW(v3, rh(v3) * 10); print(rh(v3)); countDown(cnt)}]
+symTable={cnt=1, v3=(3,int), v2=(2,int), v1=(1,int)}
+heap= {1=20, 2=30, 3=4}
+fileTable=The table is empty
+out=[20, 11, 30]
+
+Prg id: 9
+exeStack=[print(100); countDown(cnt); print(100), await(cnt)]
+symTable={cnt=1, v3=(3,int), v2=(2,int), v1=(1,int)}
+heap= {1=20, 2=30, 3=4}
+fileTable=The table is empty
+out=[20, 11, 30]
+
+Prg id: 12
+exeStack=[fork(){rW(v3, rh(v3) * 10); print(rh(v3)); countDown(cnt)}, countDown(cnt)]
+symTable={cnt=1, v3=(3,int), v2=(2,int), v1=(1,int)}
+heap= {1=20, 2=30, 3=4}
+fileTable=The table is empty
+out=[20, 11, 30]
+
+Prg id: 9
+exeStack=[print(100); countDown(cnt); print(100), await(cnt)]
+symTable={cnt=1, v3=(3,int), v2=(2,int), v1=(1,int)}
+heap= {1=20, 2=30, 3=4}
+fileTable=The table is empty
+out=[20, 11, 30]
+
+Prg id: 12
+exeStack=[fork(){rW(v3, rh(v3) * 10); print(rh(v3)); countDown(cnt)}, countDown(cnt)]
+symTable={cnt=1, v3=(3,int), v2=(2,int), v1=(1,int)}
+heap= {1=20, 2=30, 3=4}
+fileTable=The table is empty
+out=[20, 11, 30]
+
+Prg id: 9
+exeStack=[print(100); countDown(cnt); print(100), await(cnt)]
+symTable={cnt=1, v3=(3,int), v2=(2,int), v1=(1,int)}
+heap= {1=20, 2=30, 3=4}
+fileTable=The table is empty
+out=[20, 11, 30, 12]
+
+Prg id: 12
+exeStack=[fork(){rW(v3, rh(v3) * 10); print(rh(v3)); countDown(cnt)}]
+symTable={cnt=1, v3=(3,int), v2=(2,int), v1=(1,int)}
+heap= {1=20, 2=30, 3=4}
+fileTable=The table is empty
+out=[20, 11, 30, 12]
+
+Prg id: 9
+exeStack=[print(100); countDown(cnt); print(100), await(cnt)]
+symTable={cnt=1, v3=(3,int), v2=(2,int), v1=(1,int)}
+heap= {1=20, 2=30, 3=4}
+fileTable=The table is empty
+out=[20, 11, 30, 12]
+
+Prg id: 12
+exeStack=[fork(){rW(v3, rh(v3) * 10); print(rh(v3)); countDown(cnt)}]
+symTable={cnt=1, v3=(3,int), v2=(2,int), v1=(1,int)}
+heap= {1=20, 2=30, 3=4}
+fileTable=The table is empty
+out=[20, 11, 30, 12]
+
+Prg id: 9
+exeStack=[print(100); countDown(cnt); print(100), await(cnt)]
+symTable={cnt=1, v3=(3,int), v2=(2,int), v1=(1,int)}
+heap= {1=20, 2=30, 3=4}
+fileTable=The table is empty
+out=[20, 11, 30, 12]
+
+Prg id: 12
+exeStack=The stack is empty
+symTable={cnt=1, v3=(3,int), v2=(2,int), v1=(1,int)}
+heap= {1=20, 2=30, 3=4}
+fileTable=The table is empty
+out=[20, 11, 30, 12]
+
+Prg id: 13
+exeStack=[rW(v3, rh(v3) * 10); print(rh(v3)); countDown(cnt)]
+symTable={cnt=1, v3=(3,int), v2=(2,int), v1=(1,int)}
+heap= {1=20, 2=30, 3=4}
+fileTable=The table is empty
+out=[20, 11, 30, 12]
+
+Prg id: 9
+exeStack=[print(100); countDown(cnt); print(100), await(cnt)]
+symTable={cnt=1, v3=(3,int), v2=(2,int), v1=(1,int)}
+heap= {1=20, 2=30, 3=4}
+fileTable=The table is empty
+out=[20, 11, 30, 12]
+
+Prg id: 13
+exeStack=[rW(v3, rh(v3) * 10); print(rh(v3)); countDown(cnt)]
+symTable={cnt=1, v3=(3,int), v2=(2,int), v1=(1,int)}
+heap= {1=20, 2=30, 3=4}
+fileTable=The table is empty
+out=[20, 11, 30, 12]
+
+Prg id: 9
+exeStack=[print(100); countDown(cnt); print(100), await(cnt)]
+symTable={cnt=1, v3=(3,int), v2=(2,int), v1=(1,int)}
+heap= {1=20, 2=30, 3=4}
+fileTable=The table is empty
+out=[20, 11, 30, 12]
+
+Prg id: 13
+exeStack=[print(rh(v3)); countDown(cnt), rW(v3, rh(v3) * 10)]
+symTable={cnt=1, v3=(3,int), v2=(2,int), v1=(1,int)}
+heap= {1=20, 2=30, 3=4}
+fileTable=The table is empty
+out=[20, 11, 30, 12]
+
+Prg id: 9
+exeStack=[print(100); countDown(cnt); print(100), await(cnt)]
+symTable={cnt=1, v3=(3,int), v2=(2,int), v1=(1,int)}
+heap= {1=20, 2=30, 3=4}
+fileTable=The table is empty
+out=[20, 11, 30, 12]
+
+Prg id: 13
+exeStack=[print(rh(v3)); countDown(cnt), rW(v3, rh(v3) * 10)]
+symTable={cnt=1, v3=(3,int), v2=(2,int), v1=(1,int)}
+heap= {1=20, 2=30, 3=4}
+fileTable=The table is empty
+out=[20, 11, 30, 12]
+
+Prg id: 9
+exeStack=[print(100); countDown(cnt); print(100), await(cnt)]
+symTable={cnt=1, v3=(3,int), v2=(2,int), v1=(1,int)}
+heap= {1=20, 2=30, 3=40}
+fileTable=The table is empty
+out=[20, 11, 30, 12]
+
+Prg id: 13
+exeStack=[print(rh(v3)); countDown(cnt)]
+symTable={cnt=1, v3=(3,int), v2=(2,int), v1=(1,int)}
+heap= {1=20, 2=30, 3=40}
+fileTable=The table is empty
+out=[20, 11, 30, 12]
+
+Prg id: 9
+exeStack=[print(100); countDown(cnt); print(100), await(cnt)]
+symTable={cnt=1, v3=(3,int), v2=(2,int), v1=(1,int)}
+heap= {1=20, 2=30, 3=40}
+fileTable=The table is empty
+out=[20, 11, 30, 12]
+
+Prg id: 13
+exeStack=[print(rh(v3)); countDown(cnt)]
+symTable={cnt=1, v3=(3,int), v2=(2,int), v1=(1,int)}
+heap= {1=20, 2=30, 3=40}
+fileTable=The table is empty
+out=[20, 11, 30, 12]
+
+Prg id: 9
+exeStack=[print(100); countDown(cnt); print(100), await(cnt)]
+symTable={cnt=1, v3=(3,int), v2=(2,int), v1=(1,int)}
+heap= {1=20, 2=30, 3=40}
+fileTable=The table is empty
+out=[20, 11, 30, 12]
+
+Prg id: 13
+exeStack=[countDown(cnt), print(rh(v3))]
+symTable={cnt=1, v3=(3,int), v2=(2,int), v1=(1,int)}
+heap= {1=20, 2=30, 3=40}
+fileTable=The table is empty
+out=[20, 11, 30, 12]
+
+Prg id: 9
+exeStack=[print(100); countDown(cnt); print(100), await(cnt)]
+symTable={cnt=1, v3=(3,int), v2=(2,int), v1=(1,int)}
+heap= {1=20, 2=30, 3=40}
+fileTable=The table is empty
+out=[20, 11, 30, 12]
+
+Prg id: 13
+exeStack=[countDown(cnt), print(rh(v3))]
+symTable={cnt=1, v3=(3,int), v2=(2,int), v1=(1,int)}
+heap= {1=20, 2=30, 3=40}
+fileTable=The table is empty
+out=[20, 11, 30, 12]
+
+Prg id: 9
+exeStack=[print(100); countDown(cnt); print(100), await(cnt)]
+symTable={cnt=1, v3=(3,int), v2=(2,int), v1=(1,int)}
+heap= {1=20, 2=30, 3=40}
+fileTable=The table is empty
+out=[20, 11, 30, 12, 40]
+
+Prg id: 13
+exeStack=[countDown(cnt)]
+symTable={cnt=1, v3=(3,int), v2=(2,int), v1=(1,int)}
+heap= {1=20, 2=30, 3=40}
+fileTable=The table is empty
+out=[20, 11, 30, 12, 40]
+
+Prg id: 9
+exeStack=[print(100); countDown(cnt); print(100), await(cnt)]
+symTable={cnt=1, v3=(3,int), v2=(2,int), v1=(1,int)}
+heap= {1=20, 2=30, 3=40}
+fileTable=The table is empty
+out=[20, 11, 30, 12, 40]
+
+Prg id: 13
+exeStack=[countDown(cnt)]
+symTable={cnt=1, v3=(3,int), v2=(2,int), v1=(1,int)}
+heap= {1=20, 2=30, 3=40}
+fileTable=The table is empty
+out=[20, 11, 30, 12, 40]
+
+Prg id: 9
+exeStack=[print(100); countDown(cnt); print(100), await(cnt)]
+symTable={cnt=1, v3=(3,int), v2=(2,int), v1=(1,int)}
+heap= {1=20, 2=30, 3=40}
+fileTable=The table is empty
+out=[20, 11, 30, 12, 40, 13]
+
+Prg id: 13
+exeStack=The stack is empty
+symTable={cnt=1, v3=(3,int), v2=(2,int), v1=(1,int)}
+heap= {1=20, 2=30, 3=40}
+fileTable=The table is empty
+out=[20, 11, 30, 12, 40, 13]
+
+Prg id: 9
+exeStack=[print(100); countDown(cnt); print(100), await(cnt)]
+symTable={cnt=1, v3=(3,int), v2=(2,int), v1=(1,int)}
+heap= {1=20, 2=30, 3=40}
+fileTable=The table is empty
+out=[20, 11, 30, 12, 40, 13]
+
+Prg id: 9
+exeStack=[print(100); countDown(cnt); print(100)]
+symTable={cnt=1, v3=(3,int), v2=(2,int), v1=(1,int)}
+heap= {1=20, 2=30, 3=40}
+fileTable=The table is empty
+out=[20, 11, 30, 12, 40, 13]
+
+Prg id: 9
+exeStack=[print(100); countDown(cnt); print(100)]
+symTable={cnt=1, v3=(3,int), v2=(2,int), v1=(1,int)}
+heap= {1=20, 2=30, 3=40}
+fileTable=The table is empty
+out=[20, 11, 30, 12, 40, 13]
+
+Prg id: 9
+exeStack=[countDown(cnt); print(100), print(100)]
+symTable={cnt=1, v3=(3,int), v2=(2,int), v1=(1,int)}
+heap= {1=20, 2=30, 3=40}
+fileTable=The table is empty
+out=[20, 11, 30, 12, 40, 13]
+
+Prg id: 9
+exeStack=[countDown(cnt); print(100), print(100)]
+symTable={cnt=1, v3=(3,int), v2=(2,int), v1=(1,int)}
+heap= {1=20, 2=30, 3=40}
+fileTable=The table is empty
+out=[20, 11, 30, 12, 40, 13]
+
+Prg id: 9
+exeStack=[countDown(cnt); print(100)]
+symTable={cnt=1, v3=(3,int), v2=(2,int), v1=(1,int)}
+heap= {1=20, 2=30, 3=40}
+fileTable=The table is empty
+out=[20, 11, 30, 12, 40, 13, 100]
+
+Prg id: 9
+exeStack=[countDown(cnt); print(100)]
+symTable={cnt=1, v3=(3,int), v2=(2,int), v1=(1,int)}
+heap= {1=20, 2=30, 3=40}
+fileTable=The table is empty
+out=[20, 11, 30, 12, 40, 13, 100]
+
+Prg id: 9
+exeStack=[print(100), countDown(cnt)]
+symTable={cnt=1, v3=(3,int), v2=(2,int), v1=(1,int)}
+heap= {1=20, 2=30, 3=40}
+fileTable=The table is empty
+out=[20, 11, 30, 12, 40, 13, 100]
+
+Prg id: 9
+exeStack=[print(100), countDown(cnt)]
+symTable={cnt=1, v3=(3,int), v2=(2,int), v1=(1,int)}
+heap= {1=20, 2=30, 3=40}
+fileTable=The table is empty
+out=[20, 11, 30, 12, 40, 13, 100]
+
+Prg id: 9
+exeStack=[print(100)]
+symTable={cnt=1, v3=(3,int), v2=(2,int), v1=(1,int)}
+heap= {1=20, 2=30, 3=40}
+fileTable=The table is empty
+out=[20, 11, 30, 12, 40, 13, 100, 9]
+
+Prg id: 9
+exeStack=[print(100)]
+symTable={cnt=1, v3=(3,int), v2=(2,int), v1=(1,int)}
+heap= {1=20, 2=30, 3=40}
+fileTable=The table is empty
+out=[20, 11, 30, 12, 40, 13, 100, 9]
+
+Prg id: 9
+exeStack=The stack is empty
+symTable={cnt=1, v3=(3,int), v2=(2,int), v1=(1,int)}
+heap= {1=20, 2=30, 3=40}
+fileTable=The table is empty
+out=[20, 11, 30, 12, 40, 13, 100, 9, 100]
+
